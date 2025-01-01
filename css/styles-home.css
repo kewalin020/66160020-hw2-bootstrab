@@ -59,3 +59,37 @@
 .carousel-caption p {
     font-size: 1rem; /* ลดขนาดคำบรรยาย */
 }
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    color: #000000; /* สีหัวข้อ */
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #050505;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #8f411a; /* สีที่เปลี่ยนเมื่อ hover */
+}
+
+footer .text-white {
+    background-color: #4d77a1;
+    padding: 10px;
+}
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
