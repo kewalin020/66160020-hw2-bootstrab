@@ -35,3 +35,27 @@
     border-color: #296d1d;
     color: rgb(250, 250, 250);
 }
+
+/* ลดขนาดของ Hero Section */
+#carouselExampleCaptions {
+    margin-bottom: 20px;
+    max-height: 800px; /* กำหนดความสูงสูงสุด */
+    overflow: hidden; /* ซ่อนส่วนเกิน */
+}
+#carouselExampleCaptions .carousel-item img {
+    height: 500px; /* กำหนดความสูงของภาพ */
+    object-fit: cover; /* ตัดภาพให้พอดีกับพื้นที่ */
+}
+
+.carousel-caption {
+    bottom: 0px; /* ลดระยะห่างจากด้านล่าง */
+    font-size: 0.9rem; /* ลดขนาดข้อความ */
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem; /* ลดขนาดหัวข้อ */
+    margin-bottom: 10px;
+}
+.carousel-caption p {
+    font-size: 1rem; /* ลดขนาดคำบรรยาย */
+}
