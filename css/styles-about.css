@@ -36,6 +36,26 @@
     color: rgb(250, 250, 250);
 }
 
+/* เพิ่ม box-shadow ให้กับการ์ด */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงาเบา ๆ */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* ขยายการ์ดเล็กน้อยเมื่อ hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* เงาเข้มขึ้นเมื่อ hover */
+}
+
+/* ปรับแต่งขอบของรูปภาพ */
+.card-img-top {
+    border-radius: 0.5rem 0.5rem 0 0; /* ปรับมุมภาพให้ออกมน */
+}
+
+/* ปรับข้อความภายในการ์ด */
+.card-body {
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+}
 
 
 /* Footer */
