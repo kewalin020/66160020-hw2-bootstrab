@@ -72,9 +72,8 @@
 5. git commit -m "git command"
 
 ### Merge และ Push
-1. git checkout development
-2. git merge feature/home
-3. git merge feature/about
-4. git merge feature/contact
-5. git merge feature/css
-6. git push origin development
+1. git merge feature/home
+2. git merge feature/about
+3. git merge feature/contact
+4. git merge feature/css
+5. git push origin development
